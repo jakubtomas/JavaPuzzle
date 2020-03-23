@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <Pane prefHeight="400.0" prefWidth="400.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+
+        <Button id="btn0" fx:id="btn0" layoutX="14.0" layoutY="1.0" mnemonicParsing="false" onAction="#clickBtn" prefHeight="60.0" prefWidth="60.0" text="YES" />
+        <Button id="btn1" fx:id="btn1" layoutX="77.0" layoutY="1.0" mnemonicParsing="false" onAction="#clickBtn" prefHeight="60.0" prefWidth="60.0" text="YES" />
+        <Button id="btn2" fx:id="btn2" layoutX="142.0" layoutY="1.0" mnemonicParsing="false" onAction="#clickBtn" prefHeight="60.0" prefWidth="60.0" text="YES" />
+        <Button id="btn3" fx:id="btn3" layoutX="207.0" layoutY="1.0" mnemonicParsing="false" onAction="#clickBtn" prefHeight="60.0" prefWidth="60.0" text="YES" />
+
+        <Button id="btn4" fx:id="btn4" layoutX="14.0" layoutY="65" mnemonicParsing="false" onAction="#clickBtn" prefHeight="60.0" prefWidth="60.0" text="YES" />
+        <Button id="btn5" fx:id="btn5" layoutX="77.0" layoutY="65" mnemonicParsing="false" onAction="#clickBtn" prefHeight="60.0" prefWidth="60.0" text="YES" />
+        <Button id="btn6" fx:id="btn6" layoutX="142.0" layoutY="65" mnemonicParsing="false" onAction="#clickBtn" prefHeight="60.0" prefWidth="60.0" text="YES" />
+        <Button id="btn7" fx:id="btn7" layoutX="207.0" layoutY="65" mnemonicParsing="false" onAction="#clickBtn" prefHeight="60.0" prefWidth="60.0" text="YES" />
+        <Button id="btn8" fx:id="btn8" layoutX="14.0" layoutY="130" mnemonicParsing="false" onAction="#clickBtn" prefHeight="60.0" prefWidth="60.0" text="YES" />
+        <Button id="btn9" fx:id="btn9" layoutX="77.0" layoutY="130" mnemonicParsing="false" onAction="#clickBtn" prefHeight="60.0" prefWidth="60.0" text="YES" />
+        <Button id="btn10" fx:id="btn10" layoutX="142.0" layoutY="130" mnemonicParsing="false" onAction="#clickBtn" prefHeight="60.0" prefWidth="60.0" text="YES" />
+        <Button id="btn11" fx:id="btn11" layoutX="207.0" layoutY="130" mnemonicParsing="false" onAction="#clickBtn" prefHeight="60.0" prefWidth="60.0" text="YES" />
+
+        <Button id="btn12" fx:id="btn12" layoutX="14.0" layoutY="194" mnemonicParsing="false" onAction="#clickBtn" prefHeight="60.0" prefWidth="60.0" text="YES" />
+        <Button id="btn13" fx:id="btn13" layoutX="77.0" layoutY="194" mnemonicParsing="false" onAction="#clickBtn" prefHeight="60.0" prefWidth="60.0" text="YES" />
+        <Button id="btn14" fx:id="btn14" layoutX="142.0" layoutY="194" mnemonicParsing="false" onAction="#clickBtn" prefHeight="60.0" prefWidth="60.0" text="YES" />
+        <Button id="btn15" fx:id="btn15" layoutX="207.0" layoutY="194" mnemonicParsing="false" onAction="#clickBtn" prefHeight="60.0" prefWidth="60.0" text="YES" />
+
+        <Button id="btn15" fx:id="btnNewGame" layoutX="157.0" layoutY="316.0" mnemonicParsing="false" onAction="#newGame" prefHeight="60.0" prefWidth="60.0" text="new game" />
+        <Button id="btn15" fx:id="btnendGame" layoutX="237.0" layoutY="316.0" mnemonicParsing="false" onAction="#endGame" prefHeight="60.0" prefWidth="60.0" text="end game" />
+        <Button id="btn15" fx:id="btnRestartButton" layoutX="77.0" layoutY="316.0" mnemonicParsing="false" onAction="#restartGame" prefHeight="60.0" prefWidth="60.0" text="restart game" />
+
+
+
+    </Pane>
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>
